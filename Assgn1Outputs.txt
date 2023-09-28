@@ -1,0 +1,59 @@
+/tmp/qxOxhiUCrt.o
+Choose from the following: 
+ 1. Insert  
+ 2. Delete 
+ 3.Print 
+ 4.Exit 
+1
+Enter new element 
+1
+Choose from the following: 
+ 1. Insert  
+ 2. Delete 
+ 3.Print 
+ 4.Exit 
+1
+Enter new element 
+2
+Choose from the following: 
+ 1. Insert  
+ 2. Delete 
+ 3.Print 
+ 4.Exit 
+1
+Enter new element 
+3
+Choose from the following: 
+ 1. Insert  
+ 2. Delete 
+ 3.Print 
+ 4.Exit 
+1
+Enter new element 
+54
+Choose from the following: 
+ 1. Insert  
+ 2. Delete 
+ 3.Print 
+ 4.Exit 
+3
+CURRENT QUEUE: 1,2,3,54
+Choose from the following: 
+ 1. Insert  
+ 2. Delete 
+ 3.Print 
+ 4.Exit 
+2
+Choose from the following: 
+ 1. Insert  
+ 2. Delete 
+ 3.Print 
+ 4.Exit 
+3
+CURRENT QUEUE: 2,3,54
+Choose from the following: 
+ 1. Insert  
+ 2. Delete 
+ 3.Print 
+ 4.Exit 
+4
