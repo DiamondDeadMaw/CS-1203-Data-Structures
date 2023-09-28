@@ -5,7 +5,6 @@
 typedef struct node {
     int data;
     struct node* next;
-    struct node* prev;
 } NODE;
 
 
@@ -25,10 +24,12 @@ void insert(QUEUE* q, int elm) {
 
     newNode-> data = elm;
 
+    //in the case that the queue is empty, initialize both pointers to the same node.
     if (q-> rear == NULL) {
         q->front = newNode;
         q->rear = newNode;
     } else {
+        // next always points towards the tail of the queue.
         q->rear->next = newNode;
         q->rear = newNode;
     }
@@ -40,6 +41,7 @@ void delete(QUEUE* q) {
         printf("Queue is empty");
     } else {
 
+        // create a pointer to the current head of the queue, in order to delete that address later.
         NODE* temp = q-> front;
         q->front = temp->next;
         free(temp);
@@ -51,6 +53,7 @@ void delete(QUEUE* q) {
     }
 }
 
+// prints queue head to tail, left to right.
 void printQueue(QUEUE* q) {
 
     NODE* current;
