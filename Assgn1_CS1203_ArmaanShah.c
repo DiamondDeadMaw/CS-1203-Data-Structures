@@ -62,12 +62,12 @@ void printQueue(QUEUE* q) {
 
     bool f = true;
     if (q-> front == NULL) {
-        printf("Queue is empty");
+        printf("Queue is empty \n");
         f = false;
     }
 
     while (f) {
-
+        // last node. for some reason this results in infinite loop on windows, but not on mac or online compilers.
         if (current->next == NULL) {
             printf("%d", current->data);
             printf("\n");
@@ -92,6 +92,7 @@ int main () {
     {
         printf("Choose from the following: \n 1. Insert  \n 2. Delete \n 3.Print \n 4.Exit \n");
         scanf("%d", &ans);
+        
 
         switch (ans)
         {
