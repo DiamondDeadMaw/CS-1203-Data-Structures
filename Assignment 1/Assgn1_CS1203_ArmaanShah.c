@@ -35,15 +35,17 @@ void insert(QUEUE* q, int elm) {
     }
 }
 
-void delete(QUEUE* q) {
-
+int delete(QUEUE* q) {
+    int r_data;
     if (q->front == NULL) {
         printf("Queue is empty");
+        return -99999;
     } else {
 
         // create a pointer to the current head of the queue, in order to delete that address later.
         NODE* temp = q-> front;
         q->front = temp->next;
+        r_data = temp->data;
         free(temp);
 
         if (q->front == NULL) {
@@ -51,6 +53,7 @@ void delete(QUEUE* q) {
         }
 
     }
+    return r_data;
 }
 
 // prints queue head to tail, left to right.
@@ -85,6 +88,7 @@ int main () {
     bool flag = true;
     QUEUE queue;
     initQ(&queue);
+    printf( "%x %x\n", (unsigned int) queue.front, (unsigned int) queue.rear);
 
     int ans;
     int ans2;
@@ -100,9 +104,10 @@ int main () {
             printf("Enter new element \n");
             scanf("%d", &ans2);
             insert(&queue, ans2);
+                 printf( "%x %x\n", (unsigned int) queue.front, (unsigned int) queue.rear);
             break;
         case 2:
-            delete(&queue);
+            printf("%d", delete(&queue));
             break;
         case 3:
             printQueue(&queue);
