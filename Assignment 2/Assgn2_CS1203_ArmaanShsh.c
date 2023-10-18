@@ -111,6 +111,7 @@ void inorder(Node* root) {
         // will be called when we reach the leftmost leaf
         else  {
             // if the leftmost leaf doesnt have a right child, but has a parent
+            
             if (stack->top != NULL) {
                 curr = pop(stack);
                 printf("%d", curr->data);
