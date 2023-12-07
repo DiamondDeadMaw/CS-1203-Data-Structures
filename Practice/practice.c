@@ -268,7 +268,13 @@ int main() {
 
     //heapTest();
    //queueTest();
-   bstTest();
-
+   //bstTest();
+int i;
+int k = 1;
+int n = 5;
+for (i = 0; k < (n+1); i=k-i) {
+    printf("%d\n", k);
+    k = k+i;
+}
     return 0;
 }

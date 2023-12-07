@@ -1,0 +1,86 @@
+Name: Armaan Shah 
+Course Name: Data Structures
+Year: 2023
+Roll number: 6
+Email: armaan.shah_ug25@ashoka.edu.in
+Phone number: 8130047572
+Testing the initialization of node with given values, showing keys in node: 
+Values of node: 
+20, 30, 48, 70
+Links from node: 
+No links
+Adding key 52 to the same node, and displaying new values:
+Values of node: 
+20, 30, 48, 52, 70
+Links from node: 
+No links
+Program 6: Testing the keys of the root node after insertion and breaking into 3 nodes:
+Values of node: 
+20, 30, 48, 52, 70
+Links from node: 
+No links
+Values of node: 
+52
+Links from node: 
+0x136e06840, 0x136e068a0
+Checking values of left child: 
+Values of node: 
+20, 30, 48
+Links from node: 
+No links
+Checking values of right child: 
+Values of node: 
+64, 70
+Links from node: 
+No links
+Program 7,8,9: Testing the functionality of the search tree insertion by printing the root nodes keys and links, and also searching for required values:
+0Values of node: 
+0
+Links from node: 
+0x0, 0x0, 0x0, 0x0, 0x0, 0x0
+1Values of node: 
+70
+Links from node: 
+0x0, 0x0, 0x0, 0x0, 0x0, 0x0
+2Values of node: 
+20, 70
+Links from node: 
+0x0, 0x0, 0x0, 0x0, 0x0, 0x0
+3Values of node: 
+20, 30, 70
+Links from node: 
+0x0, 0x0, 0x0, 0x0, 0x0, 0x0
+4Values of node: 
+20, 30, 48, 70
+Links from node: 
+0x0, 0x0, 0x0, 0x0, 0x0, 0x0
+5Values of node: 
+20, 30, 48, 52, 70
+Links from node: 
+0x0, 0x0, 0x0, 0x0, 0x0, 0x0
+6Values of node: 
+20, 30, 48, 52, 70
+Links from node: 
+0x0, 0x0, 0x0, 0x0, 0x136e06960, 0x0
+7Values of node: 
+20, 30, 48, 52, 70
+Links from node: 
+0x136e069c0, 0x0, 0x0, 0x0, 0x136e06960, 0x0
+8Values of node: 
+20, 30, 48, 52, 70
+Links from node: 
+0x136e069c0, 0x0, 0x0, 0x0, 0x136e06960, 0x136e06b90
+9Values of node: 
+20, 30, 48, 52, 70
+Links from node: 
+0x136e069c0, 0x0, 0x0, 0x0, 0x136e06960, 0x136e06b90
+10Values of node: 
+20, 30, 48, 52, 70
+Links from node: 
+0x136e069c0, 0x0, 0x0, 0x0, 0x136e06960, 0x136e06b90
+11Values of node: 
+20, 30, 48, 52, 70
+Links from node: 
+0x136e069c0, 0x0, 0x0, 0x0, 0x136e06960, 0x136e06b90
+48 exists
+99 doesnt exist
